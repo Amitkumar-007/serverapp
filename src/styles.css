@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('http://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import "node_modules/angular-notifier/styles";
+
+body{
+    background: #edf1f5;
+    margin-top:20px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width:0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+.row{
+    background-color:rgb(2, 71, 99);
+    color:white;
+    display: flex;
+    font-size: small;
+}
+
+.h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200px;
+}
